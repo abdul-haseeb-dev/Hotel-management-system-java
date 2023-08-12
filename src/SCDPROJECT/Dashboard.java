@@ -139,7 +139,7 @@ public class Dashboard extends JFrame {
                         } catch (IOException e2) {
                             e2.printStackTrace();
                         }
-                        JOptionPane.showMessageDialog(null, "Booking Cancelled ! Rs."+ts+" will be refunded to your account .");
+                        JOptionPane.showMessageDialog(null, "Sorry, Booking Cancelled ! Rs."+ts+" will be refunded to your account .");
                         try {
                             FileOutputStream fos;
                             ObjectOutputStream oos;
